@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&display=swap');
+
+body{
+    background-color: rgba(218, 218, 218, 0.562);
+    text-align: center;
+}
+
+input.login{
+    background-color: rgb(50, 50, 202);
+    color: white;
+}
+input.newacc{
+    background-color: rgb(43, 180, 43);
+    color: white;
+
+}
+div.two{
+    background-color:white;
+    display: inline-block;
+    text-align: center;
+    padding: 15px;
+    box-shadow: 0px 0px 20px rgb(161, 161, 161);
+}
+div.one{
+    display: inline-block;
+    padding: 40px;
+    text-align: left;
+    margin-right: 40px;
+
+}
+.spacing {
+    height: 100px;
+}
+.logo {
+    /* padding-bottom: 30px; */
+}
+.logo h1 {
+    font-size: 40px;
+    font-family: Roboto;
+    font-weight: 800;
+    color: rgba(90, 151, 230, 0.959);
+    margin-bottom: 10px;
+    font-size: 70px;
+}
+.logo p {
+    font-family: Roboto;
+    font-weight: 100;
+    font-size: 25px;
+    margin-top: 0px;
+}
+
+.email,.password{ 
+    height: 17px;
+    width: 270px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: solid;
+    border-color: rgb(180, 180, 180);
+    border-width: 1px;
+    padding: 10px;
+}
+.email:focus {
+    -webkit-appearance: none;
+    border-width: 1px;
+    border-color: rgba(90, 151, 230, 0.959);
+    box-shadow: 0px 0px 4px rgba(90, 151, 230, 0.959);
+}
+.email:focus-visible {
+    -webkit-appearance: none;
+    border-width: 1px;
+    border-color: rgba(90, 151, 230, 0.959);
+    box-shadow: 0px 0px 4px rgba(90, 151, 230, 0.959);
+}
+
+.login {
+    margin-bottom: 10px;
+    height: 40px;
+    width: 274px;
+    border: none;
+    border-radius: 8px;
+    transition: opacity 0.5s;
+}
+.login:hover {
+    opacity: 0.7;
+}
+.forget {
+    margin-top: 10px;
+    margin-bottom: 16px;
+
+}
+.forget a {
+    color: rgb(49, 192, 202);
+    text-decoration: none;
+    font-family: roboto;
+    font-size: 14px;
+    font-weight: 100;
+}
+.forget a:hover {
+    text-decoration: underline;
+}
+.newacc {
+    margin-bottom: 10px;
+    height: 40px;
+    width: 145px;
+    border: none;
+    border-radius: 8px;
+    transition: opacity 0.5s;
+}
+.newacc:hover {
+    opacity: 0.7;
+    
+}
